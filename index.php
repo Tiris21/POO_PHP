@@ -8,7 +8,7 @@
 
 	Config\Autoload::run();
 
-	require_once "Views/template.php";
+	//require_once "Views/template.php";
 
 	Config\Enrutador::run(new Config\Request());
 
